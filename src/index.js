@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(resp => resp.json())
         .then(obj => createResult(obj))
         
-        // .catch(function(){
-        //     alert("That Pokemon Does not Exist")
-        // })
+        .catch(function(){
+            alert("That Pokemon Does not Exist")
+        })
         form.reset()
 
         })
