@@ -52,10 +52,11 @@ document.addEventListener("DOMContentLoaded", () => {
         list.appendChild(pokeCopy)
     }
     function moveUp(e){        
-        console.log(e.target.parentNode)
-        let group = document.querySelectorAll("li")
-        group.forEach(pokemon =>console.log(pokemon))
-        console.log(group)
+        let group = Array.from(document.querySelectorAll("li"))
+        let current = group.indexOf(e.target.parentNode)
+        console.log(current)
+        //group.forEach(pokemon =>console.log(pokemon))
+        
     }
     function moveDown(e){
         let group = document.querySelectorAll("li")
