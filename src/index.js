@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    //const submitbtn = document.querySelector(".submit")
+    
     const form = document.querySelector(".pokemon-search")
     form.addEventListener("submit", function(e){
         e.preventDefault()
-        //console.log(e.target[0].value)
+        
         fetch(`https://pokeapi.co/api/v2/pokemon/${e.target[0].value}`)
         .then(resp => resp.json())
         .then(obj => createResult(obj))
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         })
     function createResult(obj){
-        //console.log(obj)
+        
         let name = obj.species.name
         let img = obj.sprites.front_default
         let imgtag = document.createElement("img")
