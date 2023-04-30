@@ -60,9 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
         
     }
     function moveDown(e){
+        let list = document.querySelector("#pokemon-list")
         let group = Array.from(document.querySelectorAll("li"))
         let current = group.indexOf(e.target.parentNode)
         let newArray = moveEle(group, current, current+1)
+        newArray.forEach(pokemon => list.appendChild(pokemon))
     }
 
     function moveEle(array, position, newPos){
