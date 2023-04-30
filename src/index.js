@@ -51,16 +51,35 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         list.appendChild(pokeCopy)
     }
-    function moveUp(e){        
+    function moveUp(e){
+        let list = document.querySelector("#pokemon-list")
         let group = Array.from(document.querySelectorAll("li"))
         let current = group.indexOf(e.target.parentNode)
-        console.log(current)
-        //group.forEach(pokemon =>console.log(pokemon))
+        let newArray = moveEle(group, current, current-1)
+        newArray.forEach(pokemon => list.appendChild(pokemon))
         
     }
     function moveDown(e){
-        let group = document.querySelectorAll("li")
-        console.log(group)
+        let group = Array.from(document.querySelectorAll("li"))
+        let current = group.indexOf(e.target.parentNode)
+        let newArray = moveEle(group, current, current+1)
+    }
+
+    function moveEle(array, position, newPos){
+        while(position < 0){
+            position += array.length
+        }
+        while(newPos < 0){
+            newPos += array.length
+        }
+        if(newPos >= array.length){
+            let i = newPos - array.length
+            while((i--) +1){
+                array.push(undefined)
+            }
+        }
+        array.splice(newPos, 0, array.splice(position, 1)[0])
+        return array
     }
     })
 
