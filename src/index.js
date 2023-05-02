@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function createLi(e){
+        e.preventDefault()
         let poke = e.target.parentNode
         let pokeCopy = document.createElement('li')
         pokeCopy.innerHTML = poke.innerHTML

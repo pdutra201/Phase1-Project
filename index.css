@@ -3,10 +3,11 @@ body {
     margin: 0;
     font-family: monospace;
 }
-#search-results{
-    flex: 1;
-    border: 2px solid yellow;
-        
+.pokemon-form{
+    background-image: url("http://gran4u.xtgem.com/Pokedex.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #pokemon-list{
@@ -20,3 +21,4 @@ body {
 #search-title{
     width: 400px
 }
+
