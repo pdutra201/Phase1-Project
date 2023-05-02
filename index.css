@@ -2,18 +2,24 @@ body {
     text-align: center;
     margin: 0;
     font-family: monospace;
-}
-.pokemon-form{
     background-image: url("http://gran4u.xtgem.com/Pokedex.png");
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position-y: fixed;
+    background-position-y: 250px;
     background-position-x: center;
-    
 }
-
+#search-results{
+       
+    position: fixed;
+    bottom: 300px;
+    right: 1150px
+}
 #pokemon-list{
-    margin-right: 20px;
+    position:relative;
+    bottom: -200px;
+    right: -250px;
+    list-style-position: inside;
+    margin: 0;
 }
 
 #pokemon-title{

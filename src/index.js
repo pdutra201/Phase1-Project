@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         list.appendChild(pokeCopy)
     }
     function moveUp(e){
+        e.preventDefault()
         let list = document.querySelector("#list")
         let group = Array.from(document.querySelectorAll("li"))
         let current = group.indexOf(e.target.parentNode)
@@ -63,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
     }
     function moveDown(e){
+        e.preventDefault()
         let list = document.querySelector("#list")
         let group = Array.from(document.querySelectorAll("li"))
         let current = group.indexOf(e.target.parentNode)
