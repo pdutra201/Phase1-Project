@@ -1,14 +1,14 @@
 body {
+    text-align: center;
     margin: 0;
     font-family: monospace;
 }
 #search-results{
-    text-align: center;
-  border: grey solid 1px;
-  padding: 1rem;
-  width: 15rem;
-  height: 10rem;
-  display: inline-grid;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #2a64e0   
+    flex: 1;
+    border: 2px solid yellow;
+        
+}
+
+#pokemon-list{
+    margin-right: 20px;
 }

@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         })
     function createResult(obj){
+        console.log(obj)
         
         let name = obj.species.name
         let img = obj.sprites.front_default
@@ -25,7 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
         let location = document.querySelector("#search-results")
         location.innerHTML = ""
         let poke = document.createElement('p')        
-        poke.textContent = name       
+        poke.textContent = name
+        poke.className = "poke"      
         poke.appendChild(imgtag)
         poke.appendChild(btn)
         btn.addEventListener("click", (e) => createLi(e))
@@ -44,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         up.addEventListener("click", (e) => moveUp(e))
         pokeCopy.appendChild(down)
         down.addEventListener("click", (e) => moveDown(e))
-        let list = document.querySelector("#pokemon-list")
+        let list = document.querySelector("#list")
         pokeCopy.querySelector("button").textContent = "X"
         pokeCopy.querySelector("button").addEventListener("click", function(){
             pokeCopy.remove()
@@ -52,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         list.appendChild(pokeCopy)
     }
     function moveUp(e){
-        let list = document.querySelector("#pokemon-list")
+        let list = document.querySelector("#list")
         let group = Array.from(document.querySelectorAll("li"))
         let current = group.indexOf(e.target.parentNode)
         let newArray = moveEle(group, current, current-1)
@@ -60,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
     }
     function moveDown(e){
-        let list = document.querySelector("#pokemon-list")
+        let list = document.querySelector("#list")
         let group = Array.from(document.querySelectorAll("li"))
         let current = group.indexOf(e.target.parentNode)
         let newArray = moveEle(group, current, current+1)
