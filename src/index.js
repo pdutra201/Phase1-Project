@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", function(e){
         e.preventDefault()
         
-        fetch(`https://pokeapi.co/api/v2/pokemon/${e.target[0].value}`)
-        .then(resp => resp.json())
+        fetch(`https://pokeapi.co/api/v2/pokemon/`)
+        .then(resp => console.log(resp.json()))
         .then(obj => createResult(obj))
         
         .catch(function(){
