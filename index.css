@@ -9,18 +9,19 @@ body {
     background-position-x: center;
     background-attachment: fixed;
 }
-#search-results{
-       
+#search-results{       
     position: fixed;
     bottom: 300px;
-    right: 1150px
+    right: 1150px;
+    
 }
 #pokemon-list{
-    position: relative;
-    bottom: -200px;
-    right: -250px;
+    float: right;
+    margin-right: 550px;
+    margin-top: 220px;
     list-style-position: inside;
-    margin: 0;
+   
+    
 }
 
 #pokemon-title{

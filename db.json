@@ -2,82 +2,124 @@
     "pokemon": [
         {
             "name":"bulbasaur",
-            "url":"https://pokeapi.co/api/v2/pokemon/1/"
+            "url":"https://pokeapi.co/api/v2/pokemon/1/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "type": "grass"
         },
         {
             "name":"ivysaur",
-            "url":"https://pokeapi.co/api/v2/pokemon/2/"
+            "url":"https://pokeapi.co/api/v2/pokemon/2/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+            "type":"grass"
         },
         {
             "name":"venusaur",
-            "url":"https://pokeapi.co/api/v2/pokemon/3/"
+            "url":"https://pokeapi.co/api/v2/pokemon/3/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+            "type":"grass"
         },
         {
             "name":"charmander",
-            "url":"https://pokeapi.co/api/v2/pokemon/4/"
+            "url":"https://pokeapi.co/api/v2/pokemon/4/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+            "type":"fire"
         },
         {
             "name":"charmeleon",
-            "url":"https://pokeapi.co/api/v2/pokemon/5/"
+            "url":"https://pokeapi.co/api/v2/pokemon/5/",
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+            "type":"fire"
         },
         {
             "name":"charizard",
-            "url":"https://pokeapi.co/api/v2/pokemon/6/"
+            "url":"https://pokeapi.co/api/v2/pokemon/6/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+            "type":"fire"
         },
         {
             "name":"squirtle",
-            "url":"https://pokeapi.co/api/v2/pokemon/7/"
+            "url":"https://pokeapi.co/api/v2/pokemon/7/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+            "type":"water"
         },
         {
             "name":"wartortle",
-            "url":"https://pokeapi.co/api/v2/pokemon/8/"
+            "url":"https://pokeapi.co/api/v2/pokemon/8/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+            "type":"water"
         },
         {
             "name":"blastoise",
-            "url":"https://pokeapi.co/api/v2/pokemon/9/"
+            "url":"https://pokeapi.co/api/v2/pokemon/9/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+            "type":"water"
+
         },
         {
             "name":"caterpie",
-            "url":"https://pokeapi.co/api/v2/pokemon/10/"
+            "url":"https://pokeapi.co/api/v2/pokemon/10/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+            "type":"bug"
         },
         {
             "name":"metapod",
-            "url":"https://pokeapi.co/api/v2/pokemon/11/"
+            "url":"https://pokeapi.co/api/v2/pokemon/11/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+            "type":"bug"
         },
         {
             "name":"butterfree",
-            "url":"https://pokeapi.co/api/v2/pokemon/12/"
+            "url":"https://pokeapi.co/api/v2/pokemon/12/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+            "type":"bug"
         },
         {
             "name":"weedle",
-            "url":"https://pokeapi.co/api/v2/pokemon/13/"
+            "url":"https://pokeapi.co/api/v2/pokemon/13/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+            "type":"bug"
         },
         {
             "name":"kakuna",
-            "url":"https://pokeapi.co/api/v2/pokemon/14/"
+            "url":"https://pokeapi.co/api/v2/pokemon/14/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+            "type":"bug"
         },
         {
             "name":"beedrill",
-            "url":"https://pokeapi.co/api/v2/pokemon/15/"
+            "url":"https://pokeapi.co/api/v2/pokemon/15/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+            "type":"bug"
         },
         {
             "name":"pidgey",
-            "url":"https://pokeapi.co/api/v2/pokemon/16/"
+            "url":"https://pokeapi.co/api/v2/pokemon/16/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+            "type":"flying"
         },
         {
             "name":"pidgeotto",
-            "url":"https://pokeapi.co/api/v2/pokemon/17/"
+            "url":"https://pokeapi.co/api/v2/pokemon/17/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+            "type":"flying"
         },
         {
             "name":"pidgeot",
-            "url":"https://pokeapi.co/api/v2/pokemon/18/"
+            "url":"https://pokeapi.co/api/v2/pokemon/18/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+            "type":"flying"
+
         },
         {
             "name":"rattata",
-            "url":"https://pokeapi.co/api/v2/pokemon/19/"
+            "url":"https://pokeapi.co/api/v2/pokemon/19/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+            "type":"normal"
         },
         {
             "name":"raticate",
-            "url":"https://pokeapi.co/api/v2/pokemon/20/"
+            "url":"https://pokeapi.co/api/v2/pokemon/20/",
+            "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+            "type":"normal"
         }
         ]}
